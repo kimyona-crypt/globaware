@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-attachment: scroll;
+	font-family: 'Kaushan Script', cursive;
+}
+.img{
+    background: linear-gradient(rgba(255,255,255, 0.2),rgba(255,255,255, 0.99)),url('https://images.startups.co.uk/wp-content/uploads/2018/12/20162418/business-ideas-2019-plant-based-foods.jpg');
+    background-size: cover;
+    z-index: -2;
+    height: 100%;
+}
+.imga{
+    background: linear-gradient(rgba(255,255,255, 0.2),rgba(255,255,255, 0.99)),url('https://cosmos-images2.imgix.net/file/spina/photo/16830/181015-arctic-full.jpg?ixlib=rails-2.1.4&auto=format&ch=Width%2CDPR&fit=max&w=835');
+    background-size: cover;
+    z-index: -2;
+    height: 100%;
+}
+.imgf{
+    background: linear-gradient(rgba(255,255,255, 0.2),rgba(255,255,255, 0.99)),url('http://cdn9.dissolve.com/p/D621_31_041/D621_31_041_0004_600.jpg');
+    background-size: cover;
+    z-index: -2;
+    height: 100%;
+}
+.imgb{
+    background: linear-gradient(rgba(255,255,255, 0.2),rgba(255,255,255, 0.99)),url('http://www.gsfdcy.com/data/img/9/1204067-bee-wallpaper.jpg');
+    background-size: cover;
+    z-index: -2;
+    height: 80%;
+}
+.imgi{
+    background: linear-gradient(rgba(255,255,255, 0.2),rgba(255,255,255, 0.99)),url('https://www.hindustantimes.com/rf/image_size_960x540/HT/p2/2017/02/03/Pictures/emergency-workers-shoreline-between-following-collision-tankers_b990e766-ea12-11e6-93cc-bb55973994db.jpg');
+    background-size: cover;
+    z-index: -2;
+    height: 100%;
+}
+.imgo{
+    background: linear-gradient(rgba(255,255,255, 0.2),rgba(255,255,255, 0.99)),url('http://www.oneworldoneocean.com/images/carousel/HW_Background2b.jpg');
+    background-size: cover;
+    z-index: -2;
+    height: 100%;
+}
+/*wildlife tabs*/
+.Arctictab{
+    align-self: center;
+    color: black; 
+}
+.Arctictab .button{
+    background-color: #fff;
+    text-align: center;
+    font-size: 28px;
+    width:23%;
+    margin-left: 2%;
+    height: 60px;
+    font-family: 'Kaushan Script', cursive;
+    border-radius: 20%;
+    margin-top: 5px;
+}
+.Arctictab .button:hover{
+    background-color: rgba(27, 8, 78, 0.3);
+}
+
+.imgbox{
+    position: relative;
+	width: 70%;
+	height: 100%;
+	transform: skew(30.5deg);
+	background: linear-gradient(to right,rgba(255,255,255, 0.8),rgba(255,255,255, 0.1));
+    margin-left: 15%;													
+}
+.info{
+	position: absolute;
+	top: 5%;
+	text-align: left;
+	margin: 5% 10%;
+	width: 40%;
+}
+.info h1{
+    font-size: 57px;
+    color: rgb(19, 68, 27);
+}
+.info p1{
+font-size: 40px;
+align-self: center;
+color: rgb(30, 66, 97);
+}
+.info p3{
+	font-size: 27px;
+	color: rgb(47, 0, 255);
+}
+.info p{
+    font-size: 22px;
+    color: rgb(9, 99, 36);
+}
+
+/*problems and how it matters section*/
+.problem{
+    width: 100%;
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-bottom: 3%;
+}
+.problem .column{
+    width:35%;
+    float: left;
+    margin-left: 10%;
+}
+ .problem p{
+   font-size: 20px;
+}
+.problem h1{
+    font-size: 42px;
+    color:rgb(9, 99, 36);
+}
+.problem h2{
+    font-size: 36px;
+    color: rgb(30, 66, 97);
+}
+.act{
+    margin-left: 10%;
+    width: 85%;
+    margin-bottom: 620px;
+}
+.act p{
+    font-size: 24px;
+ }
+ .act h1{
+    font-size: 42px;
+     color:rgb(9, 99, 36);
+ }
+ .act h2{
+    font-size: 36px;
+     color: rgb(30, 66, 97);
+ }
+ .act .column{
+    width:35%;
+    float: left;
+    margin-left: 10%;
+}
+@media(max-width:992px){
+  .problem h1{
+    font-size: 20px;
+}
+.info h1{
+  font-size: 30px;
+}
+.info p1{
+font-size: 25px;
+}
+.info p3{
+font-size: 17px;
+}
+.info p{
+  font-size: 20px;
+  
+}
+.info{
+  margin-top: 25%;
+  width:80%;
+}
+.act{
+  margin-left: 10%;
+  width: 85%;
+  margin-bottom: 660px;
+}
+.problem .column{
+  width:85%;
+}
+.act p{
+  font-size: 19px;
+}
+.act h1{
+  font-size: 23px;
+}
+.act h2{
+  font-size: 26px;  
+}
+.act .column{
+  width:85%;
+  float: left;
+  margin-left: 10%;
+}
+.column .btn{
+  width: 200px ;
+}
+.Arctictab{
+  align-self: center;
+  color: black; 
+}
+.Arctictab .button{
+  margin-top: 3px;
+ font-size: 16px;
+  width:30%;
+  margin-left: 2%;
+  height: 50px;
+  font-family: 'Kaushan Script', cursive;
+  border-radius: 20%;
+}
+
+}
+
+/*button*/
+ .btn:hover{
+    background-color: rgba(10, 247, 10, 0.5);
+  }
+ .btn{
+     width: 75% ;
+     height: 6%;
+    position: relative;
+    left:2%;
+    cursor:pointer;
+    text-align: center;
+    background-color: rgba(170, 219, 219, 0.7);
+    font-size: 100%;
+    color: black;
+  }
+
+  
+/*Navigation Bar*/
+  
+nav{
+	height:12vh;
+	background: rgba(9, 78, 32, 0.9);
+	z-index: 1000;
+	width:100%;
+  }
+  .nav-links  li:hover a{
+	color: rgb(252, 247, 0);
+  }
+  .nav-links{
+	display: flex;
+	list-style: none;
+	width: 55%;
+	height: 100%;
+	justify-content: space-around;
+	align-items: center;
+	margin-left: auto;
+	margin-top: 0;
+	z-index: 1;
+  }
+  .nav-links  li a{
+	color:white;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 6px;
+	
+  }
+  
+  
+  
+  @media screen and (max-width:850px){
+	.line{
+		width: 30px;
+		height: 3px;
+		background: white;
+		margin:5px;
+	}
+	nav{
+		position: relative;
+			}
+	.hamburger{
+				position: absolute;
+				cursor: pointer;
+				right: 5%;
+				top:30%;
+				transform: translate(-5%,-50%);
+				z-index: 10;
+			}
+	.nav-links{
+			position: fixed;
+			background:rgb(9, 78, 32);
+			height: 100vh;
+			width: 100%;
+			flex-direction: column;
+			justify-content: flex-start;
+			margin-top: 7%;
+			clip-path: circle(100px at 90% -10%);
+			-webkit-clip-path: circle(100px at 90% -20%);
+			transition: all 1s ease-out;
+				z-index: 1;
+		}
+	.nav-links.open{
+			clip-path: circle(600px at 90% -20%);
+			-webkit-clip-path:circle(600px at 90% -20%);
+			position: absolute;
+			z-index: 999;
+			}
+	.header-main.act{
+			z-index: -10;
+		}
+		
+	.nav-links li a{
+			font-size: 25px;
+			z-index: 1;
+		}
+	.nav-links li:nth-child(1){
+			transition: all 0.5s ease-out 0.2s;
+  
+		}
+	.nav-links li:nth-child(2){
+		transition: all 0.5s ease 0.4s;
+	   }
+	.nav-links li:nth-child(3){
+		transition: all 0.5s ease 0.6s;
+	   }
+	li.fade{
+		opacity: 1; 
+	   }
+  
+  }
+  p.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 5vh;
+	width: 200px;
+	z-index:2000;
+  }
+  .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  }
+  .sticky + .mymain{
+	padding-top: 60px;
+  }
+  footer .row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  }
+  footer{
+	text-align: center;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 17px;
+	letter-spacing: 1px;
+	color:white;
+	background: rgb(1, 15, 32);
+	max-height:125%;
+	padding: 15px;
+	
+  }
+  footer h1{
+	  font-size: 45px;
+	  color:#fff;
+	  font-weight: 300;
+	  letter-spacing: 4px;
+  text-align: center;
+  }
+  footer h2{
+	font-size: 36px;
+	color:#fff;
+	font-weight: 300;
+  text-align: center;
+  }
+  footer p{
+	font-size: 24px;
+	color:#fff;
+	font-weight: 300;
+  text-align: center;
+  }
+  footer ul li{
+  display: inline-block;
+	margin:0.5px;
+	font-size: 15px;
+	color: #00bfff;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	text-align: center;
+  }
+  footer span.fa{
+   color: #fff;
+	font-size: 40px;
+	line-height: 80px;
+	margin:0 5px;
+	transition: 0.5s all;
+  }
+  footer a.facebook{
+	background: #3b5998;
+  }
+  footer a.twitter{
+	background: #1da1f2;
+  }
+  footer a.google-plus{
+	background: #dd4b39;
+  }
+  footer ul li a{
+	background: rgba(255,255,255,0.22);
+	width: 80px;
+	height: 80px;
+	line-height: 35px;
+	display: block;
+	text-align: center;
+	border-radius: 55%;
+	
+  }
+  footer .column{
+  max-width: 33.33%;
+  -ms-flex: 33.33%; /* IE10 */
+  flex: 33.33%;
+  
+  }
+  footer a{
+  color: #1da1f2;
+  }
+  footer .column h2 span{
+  animation:neon 0.08s ease-in-out infinite alternate;
+  }
+  @keyframes neon {
+  from {
+	text-shadow: 0 0 6px rgba(255, 0, 0, 0.92),
+	  0 0 30px rgba(255, 0, 0, 0.34), 0 0 12px rgba(30, 132, 242, 0.52),
+	  0 0 21px rgba(255, 0, 0, 0.92), 0 0 34px rgba(255, 0, 0, 0.78),
+	  0 0 54px rgba(30, 132, 242, 0.92);
+  }
+  to {
+	text-shadow: 0 0 6px rgba(255, 0, 0, 0.98),
+	  0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(30, 132, 242, 0.58),
+	  0 0 22px rgba(30, 132, 242, 0.84), 0 0 38px rgba(30, 132, 242, 0.88),
+	  0 0 60px rgba(30, 132, 242, 1);
+  }
+  }
+  @media screen and (max-width: 800px) {
+  footer .column {
+	-ms-flex: 30%;
+	flex: 30%;
+	max-width: 30%;
+  }
+  
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 950px) {
+  footer .column {
+	-ms-flex: 30%;
+	flex: 30%;
+	max-width: 30%;
+  }
+  body{
+	overflow-x: hidden;
+  }
+  footer h2{
+	font-size:18px;
+  }
+  footer p{
+	font-size: 12px;;
+  }
+  #x{
+	margin-left: -1%;
+  }
+  #y{
+	margin-left: -4%;
+  }
+  footer a{
+	font-size: 13px;
+  }
+  }
+  @media(max-width: 667px){
+	footer h1{
+		font-size: 41px;
+		letter-spacing: 3px;
+	}
+  }
+  @media(max-width: 415px){
+	footer h1{
+		font-size: 41px;
+		
+	}
+  }
+  
+/*video container(Global Warming)*/
+.video{
+    margin-bottom: 5%;
+    width:100%;
+    height:90%;
+}

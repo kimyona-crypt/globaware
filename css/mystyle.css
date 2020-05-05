@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+body{
+    margin: 0;
+  font-family: 'Kaushan Script', cursive;
+  background-image:url('https://iso.500px.com/wp-content/uploads/2017/11/500px_blog_seeking_light_nature2-1500x1000.jpg');
+  height:100vh;
+background-size: cover;
+}
+* {
+  box-sizing: border-box;
+}
+
+h1{
+    text-align: left;
+    font-family:'Kaushan Script', cursive;
+    font-size: 60px;
+    letter-spacing: 1px;
+    color: white;
+    margin-top: 0;
+}
+p{
+    font-family:'Kaushan Script', cursive;
+    font-size: 20px;
+    color:white;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+  
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+  
+}
+ .imgbox img{
+    position: relative;
+  transition: transform 2s; 
+  z-index:300;
+  border: 5px solid white;
+}
+.imgbox img:hover{
+  
+    filter: contrast(1);
+    filter: hue-rotate(10deg);
+    transform: scale(0.9);
+}
+nav{
+  height:12vh;
+  background: rgba(9, 78, 32, 0.9);
+  z-index: 1000;
+  width:100%;
+}
+.nav-links  li:hover a{
+  color: rgb(252, 247, 0);
+}
+.nav-links{
+  display: flex;
+  list-style: none;
+  width: 55%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+  margin-top: 0;
+  z-index: 1;
+}
+.nav-links  li a{
+  color:white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 6px;
+  
+}
+
+
+
+
+@media screen and (max-width:850px){
+  .line{
+      width: 34px;
+      height: 3px;
+      background: white;
+      margin:5px;
+  }
+  nav{
+    
+      position: relative;
+          }
+  .hamburger{
+              position: absolute;
+              cursor: pointer;
+              right: 5%;
+              top:40%;
+              transform: translate(-5%,-50%);
+              z-index: 10;
+          }
+  .nav-links{
+          position: fixed;
+          background:rgb(2, 92, 50);
+          height: 100vh;
+          width: 100%;
+          flex-direction: column;
+          justify-content: flex-start;
+          margin-top: 7%;
+          clip-path: circle(100px at 90% -10%);
+          -webkit-clip-path: circle(100px at 90% -20%);
+          transition: all 1s ease-out;
+              z-index: 1;
+      }
+  .nav-links.open{
+          clip-path: circle(600px at 90% -20%);
+          -webkit-clip-path:circle(600px at 90% -20%);
+          position: absolute;
+          z-index: 999;
+          }
+  .header-main.act{
+          z-index: -10;
+      }
+      
+  .nav-links li a{
+          font-size: 25px;
+          z-index: 1;
+      }
+  .nav-links li:nth-child(1){
+          transition: all 0.5s ease-out 0.2s;
+
+      }
+  .nav-links li:nth-child(2){
+      transition: all 0.5s ease 0.4s;
+     }
+  .nav-links li:nth-child(3){
+      transition: all 0.5s ease 0.6s;
+     }
+  li.fade{
+      opacity: 1; 
+     }
+
+}
+.sticky {
+position: fixed;
+top: 0;
+width: 100%;
+}
+.sticky + .main{
+padding-top: 100px;
+}
+/*footer*/
+footer .row {
+display: -ms-flexbox; /* IE10 */
+display: flex;
+-ms-flex-wrap: wrap; /* IE10 */
+flex-wrap: wrap;
+padding: 0 4px;
+}
+footer{
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 17px;
+  letter-spacing: 1px;
+  color:white;
+  background: rgb(1, 15, 32);
+  max-height:125%;
+  padding: 15px;
+  
+}
+footer h1{
+    font-size: 45px;
+    color:#fff;
+    font-weight: 300;
+    letter-spacing: 4px;
+text-align: center;
+}
+footer h2{
+  font-size: 36px;
+  color:#fff;
+  font-weight: 300;
+text-align: center;
+}
+footer p{
+  font-size: 24px;
+  color:#fff;
+  font-weight: 300;
+text-align: center;
+}
+footer ul li{
+display: inline-block;
+  margin:0.5px;
+  font-size: 15px;
+  color: #00bfff;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  text-align: center;
+}
+footer span.fa{
+ color: #fff;
+  font-size: 40px;
+  line-height: 80px;
+  margin:0 5px;
+  transition: 0.5s all;
+}
+footer a.facebook{
+  background: #3b5998;
+}
+footer a.twitter{
+  background: #1da1f2;
+}
+footer a.google-plus{
+  background: #dd4b39;
+}
+footer ul li a{
+  background: rgba(255,255,255,0.22);
+  width: 80px;
+  height: 80px;
+  line-height: 35px;
+  display: block;
+  text-align: center;
+  border-radius: 55%;
+  
+}
+footer .column{
+max-width: 33.33%;
+-ms-flex: 33.33%; /* IE10 */
+flex: 33.33%;
+
+}
+footer a{
+color: #1da1f2;
+}
+footer .column h2 span{
+animation:neon 0.08s ease-in-out infinite alternate;
+}
+@keyframes neon {
+from {
+  text-shadow: 0 0 6px rgba(255, 0, 0, 0.92),
+    0 0 30px rgba(255, 0, 0, 0.34), 0 0 12px rgba(30, 132, 242, 0.52),
+    0 0 21px rgba(255, 0, 0, 0.92), 0 0 34px rgba(255, 0, 0, 0.78),
+    0 0 54px rgba(30, 132, 242, 0.92);
+}
+to {
+  text-shadow: 0 0 6px rgba(255, 0, 0, 0.98),
+    0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(30, 132, 242, 0.58),
+    0 0 22px rgba(30, 132, 242, 0.84), 0 0 38px rgba(30, 132, 242, 0.88),
+    0 0 60px rgba(30, 132, 242, 1);
+}
+}
+@media screen and (max-width: 800px) {
+footer .column {
+  -ms-flex: 50%;
+  flex: 50%;
+  max-width: 50%;
+}
+
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 950px) {
+footer .column {
+  -ms-flex: 50%;
+  flex: 50%;
+  max-width: 50%;
+}
+body{
+  overflow-x: hidden;
+}
+footer h2{
+  font-size:18px;
+}
+footer p{
+  font-size: 12px;;
+}
+#x{
+  margin-left: -1%;
+}
+#y{
+  margin-left: -4%;
+}
+footer a{
+  font-size: 13px;
+}
+}
+@media(max-width: 667px){
+  footer h1{
+      font-size: 20px;
+      letter-spacing: 3px;
+  }
+}
+@media(max-width: 415px){
+  footer h1{
+      font-size: 35px;
+      
+  }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="event.xsl"?>
+<event>
+	<data>
+		<event_name>Prohibit plastics</event_name>
+		<date>12/09/2019</date>
+		<organiser>Go Green</organiser>
+		<no_participants>30</no_participants>
+	</data>
+	<data>
+		<event_name>Go green ganesha</event_name>
+		<date>12/10/2019</date>
+		<organiser>Earth Day</organiser>
+		<no_participants>40</no_participants>
+	</data>
+</event>

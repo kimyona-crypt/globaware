@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Terms and Conditions</title>
+	<link rel="stylesheet" type="text/css" href="css/learninfo.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="http://smartpower.technology/wp-content/uploads/2019/04/7927_SmartPowerTechnology_Logo_DA-Favicon-01.png">
+<style>
+.act li{
+	font-size: 20px;
+}
+</style>
+</head>
+<body>
+		<nav id="myTopnav">
+				<div class="hamburger">
+					<div class="line"></div>
+					<div class="line"></div>
+					<div class="line"></div>
+				</div>
+				<ul class="nav-links">
+					<li><a href="home.html"><span class="fa fa-fw fa-home"></span>Home</a></li>
+					<li><a href="aboutus.html"><span class="fa fa-user-circle"></span>About</a></li>
+					<li><a href="gallery1.html"><span class="fa fa-picture-o" aria-hidden="true"></span>Gallery</a></li>
+					<li><a href="Learn.html"><span class="fa fa-lightbulb-o" aria-hidden="true"></span>Learn</a></li>
+					<li><a href="donate.html"><span class="fa fa-smile-o" aria-hidden="true"></span>Donate</a></li>
+					<li><a href="supporter.php"><span class="fa fa-handshake-o" aria-hidden="true"></span>Supporters</a></li>
+					<li><a href="login.php"><span class="fa fa-fw fa-user"></span>Login</a></li>
+				</ul>
+			</nav>
+			<script>
+					window.onscroll = function() {stick()};
+				
+				var myTopnav = document.getElementById("myTopnav");
+				var sticky = myTopnav.offsetTop;
+				
+				function stick() {
+				  if (window.pageYOffset >= sticky) {
+					myTopnav.classList.add("sticky")
+				  } else {
+					myTopnav.classList.remove("sticky");
+				  }
+				}
+				</script>
+  <div class="mymain">
+	  <p class="sticky" style="color: #fff;font-size:24px;margin-top:-10vh;margin-left:2%;margin-bottom:5vh;"><img src="http://smartpower.technology/wp-content/uploads/2019/04/7927_SmartPowerTechnology_Logo_DA-Favicon-01.png" style="width: 40px;height:34px">Globaware</p>
+ <div class="act" style="margin-top: 17vh;">
+<h1>Terms and Condition</h1>
+<ul>
+	<li>Donations will be accepted only from Indian citizens or other Not for Profit organisations.</li>
+	<li>No donations are accepted from corporate entities or any Government agency.</li>
+	<li>All donations are received through Credit Card/ECS/NACH mandates or on line or through cheques/drafts or through swiping machines, but never in cash.           </li>
+	<li>We reserve the right at any time, with or without cause, to:
+change the terms and conditions of this Agreement.</li>
+<li>change the Website, including eliminating or discontinuing any Information or Services or other feature of the Website; or</li>
+</ul>
+</div>
+<footer style="margin-top: -30%;">
+		<h1>Connect With Us</h1>
+		<ul>
+				  <li>
+					  <a href="https://www.facebook.com" class="facebook">    <span class="fa fa-facebook"></span></a>
+				  </li>
+				  
+				  <li>
+					  <a href="#" class="twitter">    <span class="fa fa-twitter"></span></a>
+				  </li>
+				  
+				  <li>
+					  <a href="#" class="google-plus">    <span class="fa fa-google-plus"></span></a>
+				  </li>
+			  </ul>
+			<div class="row" >
+			  <div class="column">
+				<h2>Information</h2>
+				<p> To Know More About Us <br><span><a href="aboutus.html" style="text-decoration: none;">About Us</a></span></p>
+				<p> Aware yourselves with <br>the upcoming issues<br><span><a href="learn.html" style="text-decoration: none;">LEARN</a></span></p>
+			  </div>
+			  <div class="column">
+				<h2 style="text-decoration: none;"><i class="fa fa-fw fa-envelope" style="color:#ff4d4d;text-decoration: none;"></i>Contact Us</h2>
+				<p><i class="fa fa-phone"></i>09982375275</p>
+				 <a href="#" style="text-decoration: none;"><i class="fa fa-envelope" style="color:#ff4d4d"></i> iiusgdg@gmail.com</a>
+
+			  </div>
+			  <div class="column">
+				<h2>Want to be appended in the list of <span style="color:pink">Supporters?</span><br><a href="registration.php" style="text-decoration: none;">SIGNUP</a></h2>
+			  </div>
+			</div>
+			<br><br>
+			  <a href="term.html" style="letter-spacing: 3;text-decoration: none;">Terms & Condition</a><span style="letter-spacing: 9;padding: 5px;">     /    </span><a href="policy" style="text-decoration: none;">Policy</a> <span style="padding: 5px">-</span> Copyright 2019 by Globaware.com<br><br>
+			  <h1 style="font-size: 40px">All Rights Reserved</h1>
+		 
+	  </footer>
+</div>
+<script>
+	const hamburger=document.querySelector(".hamburger");
+const navLinks=document.querySelector(".nav-links");
+const links=document.querySelector(".nav-links li");
+
+
+hamburger.addEventListener("click", () =>{
+navLinks.classList.toggle("open");
+links.forEach(link =>{
+link.classList.toggle("fade");
+});
+});
+</script>
+</body>
+</html>

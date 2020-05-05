@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/para.css">
+	<link rel="shortcut icon" type="image/x-icon" href="http://smartpower.technology/wp-content/uploads/2019/04/7927_SmartPowerTechnology_Logo_DA-Favicon-01.png">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<nav id="myTopnav">
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="home.html"><span class="fa fa-fw fa-home"></span>Home</a></li>
+                <li><a href="aboutus.html"><span class="fa fa-user-circle"></span>About</a></li>
+                <li><a href="gallery1.html"><span class="fa fa-picture-o" aria-hidden="true"></span>Gallery</a></li>
+                <li><a href="Learn.html"><span class="fa fa-lightbulb-o" aria-hidden="true"></span>Learn</a></li>
+                <li><a href="donate.html"><span class="fa fa-smile-o" aria-hidden="true"></span>Donate</a></li>
+                <li><a href="supporter.php"><span class="fa fa-handshake-o" aria-hidden="true"></span>Supporters</a></li>
+                <li><a href="login.php"><span class="fa fa-fw fa-user"></span>Login</a></li>
+            </ul>
+		</nav>
+		<div class="mymain">
+		<p class="sticky" style="color: #fff;font-size:24px;margin-top:-10vh;margin-left:2%;margin-bottom:5vh;"><img src="http://smartpower.technology/wp-content/uploads/2019/04/7927_SmartPowerTechnology_Logo_DA-Favicon-01.png" style="width: 40px;height:34px">Globaware</p>
+	
+		<div class="slideshow-container">
+
+<div class="mySlides">
+  <div class="numbertext">1 / 3</div>
+  <img src="https://assets.change.org/photos/6/ub/kv/WcubKVaCMpQIGUE-800x450-noPad.jpg?1540785427" style="width:100%;height:117vh">
+  <div class="tree">
+  	<h4>The climate and ecology of Mumbai is in danger.</h4>
+  <a class="button" href="Aarey.html">Read More</a></div>
+
+</div>
+
+<div class="mySlides ">
+  <div class="numbertext">2 / 3</div>
+  <img src="https://www.teriin.org/sites/default/files/styles/large/public/2019-09/good-air.jpg?itok=l5o2Ttxl" style="width:100%;height:117vh">
+  <div class="tree">
+  	<h4>Good air days are increasing,need people's participation for clean air</h4>
+  <a class="button" href="GoodAirDays.html">Read More</a></div>
+  
+</div>
+
+<div class="mySlides ">
+  <div class="numbertext">3 / 3</div>
+  <img src="https://media.cntraveller.in/wp-content/uploads/2019/09/GettyImages-1128224421-1366x768.jpg" style="width:100%">
+  <div class="tree">
+  	<h4>The Global Climate Strike</h4>
+  	<a class="button" href="climatestrike.html">Read More</a></div>
+</div>
+
+ <DIV id="snackbar">Want to be in the list of <h4 class="show animated tada" style="margin-top: 0%"> Supporters???</h4>
+	 <button class="button animated shake" onclick="myfunc3()"> JOIN </button>
+ </DIV>
+ <script>
+		function myfunc3(){
+		  location.assign('registration.php');
+		}
+		</script>
+  <SCRIPT>
+    function loadSnackbar() {
+      var x = document.getElementById("snackbar");
+      x.className = "show";
+      setTimeout(function(){ x.className = x.className.replace("show", ""); }, 30000);
+    }
+    window.onload=loadSnackbar
+  </SCRIPT>
+
+</div>
+<script>
+    window.onscroll = function() {stick()};
+
+var myTopnav = document.getElementById("myTopnav");
+var sticky = myTopnav.offsetTop;
+
+function stick() {
+  if (window.pageYOffset >= sticky) {
+    myTopnav.classList.add("sticky")
+  } else {
+    myTopnav.classList.remove("sticky");
+  }
+}
+</script>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+
+
+
+ 
+	<div class="sec1">              
+	</div>  
+	
+	<div class="sec3 parallax">					
+					<div class="text">
+						<h1>LEARN</h1>
+						<span class="border"></span> 
+						<p> Its not too late for our planet.<br> Learn more about the issues and technologies to resolve them.</p>
+						<h2 style="size:56px;"> STAY UPDATED, STAY AWARE!!</h2> 
+						<a href="Learn.html" style="text-decoration: none">Goto Learn &nbsp; <img src="https://icon-library.net/images/new-tab-icon/new-tab-icon-10.jpg" width="23px" height="23px"></a>
+			
+						</div>
+						<div class="text1">L</div>				
+						
+	</div>
+
+	<div class="sec4 parallax">
+			<div class="text">
+						<h1  style="color: red;font-size: 70px;">DONATE</h1>
+						<span class="border"></span> 
+						<p style="font-size: 34px;">Help Globaware protect the planet and aware the mankind for the same.
+						<br>Taking a step towards change brings a change</p> 
+						<a href="donate.html" style="text-decoration: none;color: #e00000;">Donate Now &nbsp; <img src="https://icon-library.net/images/new-tab-icon/new-tab-icon-10.jpg" width="23px" height="23px"></a>
+						</div>
+						<div class="imgbox"><img src="images/donate.jpg" style="width:55%;height:90%;align:right;"></div>
+							</div>
+	<div class="sec5 parallax">
+			<div class="imgbox2"></div>
+			<div class="imgbox1">	
+					<h1>SUPPORTERS </h1>
+					<p> Participating with wide determination and perseverance is what makes us active and the earth "GREEN".<br> Planting a tree spreads green, makes the environment clean and helps the generation stay hygiene.</p>
+						<h2 style="	color: #020c3b;">So Come JOIN US!!!</h2> 
+						<a href="supporter.html" style="text-decoration: none;">Goto Supporters &nbsp; <img src="https://icon-library.net/images/new-tab-icon/new-tab-icon-10.jpg" width="23px" height="23px"></a>
+			</div>
+			
+		</div>
+	<div class="sec6 parallax" id="mission">
+		<h1 style="margin-top:5%;font-size: 60px;text-align:center;">OUR MISSION</h1>
+		<div class="row">
+			<div class="column">
+					<div class="goal">
+				       <img src="images/goal1.jpg">
+			        </div>
+			</div>
+			<div class="column">
+		<div class="goal" id="img">
+				<h2>Our goals</h2>
+				<span class="border"></span>
+				<p>To conserve and protect natural resources for future generations, and to protect human health
+						through environmental stewardship. To aware people about global warming and means to avoid it.
+						To encourage the crowd to work for the greenery and safety of the society. Our website not only
+						shows the problems faced across the world but also showcases different means to protect as well as
+						the events being held in your vicinity.</p>
+					</div>
+			</div>
+			</div>
+			<div class="row">
+					<div class="column">
+							<div class="goal" >
+									<img src="images/vision1.jpg">
+							</div>
+							</div>
+		<div class="column">
+		<div class="goal" id="img">
+				<h2>Our Vision</h2>
+				<span class="border"></span>
+				<p>A world where natural resources are equitably available, and all children are healthier as a
+						result of living the principles of the Go Green Initiative. <br>Establish a place where there is no
+						fear of water getting scarce, weather becoming unpredictable, places becoming unoccupiable.
+						So it became the mission for us, that as our Organization grows it will make proportionate
+						amount of good impact on the environment. </p>
+		</div>
+	</div>
+				</div>
+			<div class="row">
+			<div class="column">	
+		<div class="goal">
+				<img src="images/mission1.PNG">
+		</div>
+		</div>
+		<div class="column">
+		<div class="goal" id="img">	
+				<h2>Our Mission</h2>	
+				<span class="border"></span>
+				<p>		 protect biodiversity in all its forms<br>
+						 prevent pollution and abuse of the earth’s ocean, land, air and fresh water<br>
+						 end all nuclear threats<br>
+						 promote peace, global disarmament and non-violence</p>
+						
+		</div>		
+	</div>
+	</div>
+	</div>
+	<div class="sec8"></div>
+	<div class="sec7" background="images/contactbg.jpg">
+		<h1 id="contact">CONTACT US</h1>
+		<div class="Contact-container">
+		<div class="contact-info">
+				<div class="contact-item">
+						<div class="contact-item_icon">
+							<i class="fa fa-map-pin"></i>
+				</div>
+				<h2 class="contact-item_title">address</h2>
+				<p class="contact-item_text">St.Francis Institute of Technology,Borvali West</p>
+			</div>
+				<div class="contact-item">
+						<div class="contact-item_icon">
+							<i class="fa fa-headphones"></i>
+				</div>
+				<h2 class="contact-item_title">support</h2>
+				<p class="contact-item_text"><span>
+					<i class="fa fa-phone"></i>
+				</span>
+				8976543299
+			</p>
+				<p class="contact-item_text"><span>
+						<i class="fa fa-envelope"></i>
+					</span>
+					email123@gmail.com
+				</p>
+			</div>
+			<div class="contact-item">
+					<div class="contact-item_icon">
+						<i class="fa fa-clock-o"></i>
+			</div>
+			<h2 class="contact-item_title">work time</h2>
+			<p class="contact-item_text">saturday-sunday 8:00am to 8:00pm</p>
+		</div>
+	</div>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.116099688!2d72.74109863490901!3d19.08219783858344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1567104123072!5m2!1sen!2sin" width="50%" height="650px"></iframe>
+	</div>
+</div>
+<footer>
+		<h1>Connect With Us</h1>
+		<ul>
+			  <li>
+				<a href="https://www.facebook.com" class="facebook">    <span class="fa fa-facebook"></span></a>
+			  </li>
+			  
+			  <li>
+				<a href="#" class="twitter" style="text-decoration: none;">    <span class="fa fa-twitter"></span></a>
+			  </li>
+			  
+			  <li>
+				<a href="#" class="google-plus" style="text-decoration: none;">    <span class="fa fa-google-plus"></span></a>
+			  </li>
+			</ul>
+		  <div class="row" >
+			<div class="column" style="max-width:33.33%;margin-left:-2%">
+			<h2>Information</h2>
+			<p> To Know More About Us <br><span><a href="aboutus.html" style="text-decoration: none;">About Us</a></span></p>
+			<p> Aware yourselves with <br>the upcoming issues<br><span><a href="learn.html" style="text-decoration: none;">LEARN</a></span></p>
+			</div>
+			<div class="column" id="x" style="max-width:33.33%">
+			<h2><i class="fa fa-fw fa-envelope" style="color:#ff4d4d"></i>Contact Us</h2>
+			<p><i class="fa fa-phone"></i>09982375275</p>
+			<a href="#" style="text-decoration: none;"><i class="fa fa-envelope" style="color:#ff4d4d;"></i> iiusgdg@gmail.com</a>
+	
+			</div>
+			<div class="column" id="y" style="max-width:33.33%">
+			<h2>Want to be appended in the list of <span style="color:pink">Supporters?</span><br><a href="registration.php" style="text-decoration: none;">SIGNUP</a></h2>
+			</div>
+		  </div>
+		  <br><br>
+			<a href="term.html" style="letter-spacing: 3;text-decoration: none;">Terms & Condition</a><span style="letter-spacing: 9;padding: 5px">     /    </span><a href="policy.html" style="text-decoration: none;">Policy</a> <span style="padding: 5px">-</span> Copyright 2019 by Globaware.com<br><br>
+			<h1 style="font-size: 35px">All Rights Reserved</h1>
+		
+	</footer>
+	</div>
+ <script>
+          const hamburger=document.querySelector(".hamburger");
+const navLinks=document.querySelector(".nav-links");
+const links=document.querySelector(".nav-links li");
+
+
+hamburger.addEventListener("click", () =>{
+  navLinks.classList.toggle("open");
+  links.forEach(link =>{
+    link.classList.toggle("fade");
+  });
+});
+</script>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>
+
+
+
+
